@@ -1,0 +1,10 @@
+^D:\PROECTS\GPS\BUILD\CMAKEFILES\D65F97336FDD4CCF5DD60AA73C004956\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/proects/gps -BD:/proects/gps/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/proects/gps/build/venserver.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

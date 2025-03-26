@@ -1,0 +1,77 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "(gdb) Запустить Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/venserver.exe",
+            // "args": ["-k", "2", "-e","brdc2380.23n", "-l","51.672,39.1843,10"],
+            // "args": ["-k", "1", "-j","38400", "-p","COM5" ],
+            // "args": ["-k", "3", "-r","2500000", "-f","1575420000"],
+            "args": ["-b", "16", "-s", "1125000", "-r", "1125000", "-f", "1575420000", "-a", "1", "-x", "25", "-v", "-R", "10", "-Z", "106", "-G", "-21", "-P", "7", "-B", "115200", "-D", "0", "-K", "40", "-L", "20", "-J", "-V", "5", "-S", "0", "-N", "0", "-M", "0", "-X", "0", "-Y", "0", "-A", "0", "-u", "0", "-O", "-W30"],
+            //"args": ["-r","2500000", "-s", "2500000", "-f","1575420000", "-x", "50", "-P", "8", "-B", "115200"],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],          
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "d:/mingw64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Включить автоматическое форматирование для gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Задать для варианта приложения дизассемблирования значение Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        
+               
+       
+    {
+        "name": "(gdb) Запустить",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/venserver.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}/build/",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "miDebuggerPath": "d:/mingw64/bin/gdb.exe",
+        "setupCommands": [
+            {
+                "description": "Включить автоматическое форматирование для gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            },
+            {
+                "description": "Задать для варианта приложения дизассемблирования значение Intel",
+                "text": "-gdb-set disassembly-flavor intel",
+                "ignoreFailures": true
+            }
+        ]
+    },
+    {
+        "name": "(Windows) Запустить",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/venserver.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}/build/",
+        "environment": [],
+        "console": "externalTerminal"
+    }
+    ]
+}

@@ -1,0 +1,86 @@
+[
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\main.c.obj -c D:\\proects\\gps\\main.c",
+  "file": "D:\\proects\\gps\\main.c",
+  "output": "CMakeFiles\\venserver.dir\\main.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\until.c.obj -c D:\\proects\\gps\\until.c",
+  "file": "D:\\proects\\gps\\until.c",
+  "output": "CMakeFiles\\venserver.dir\\until.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\com.c.obj -c D:\\proects\\gps\\com.c",
+  "file": "D:\\proects\\gps\\com.c",
+  "output": "CMakeFiles\\venserver.dir\\com.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\usrp.c.obj -c D:\\proects\\gps\\usrp.c",
+  "file": "D:\\proects\\gps\\usrp.c",
+  "output": "CMakeFiles\\venserver.dir\\usrp.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\getopt.c.obj -c D:\\proects\\gps\\getopt.c",
+  "file": "D:\\proects\\gps\\getopt.c",
+  "output": "CMakeFiles\\venserver.dir\\getopt.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\gpssim.c.obj -c D:\\proects\\gps\\gpssim.c",
+  "file": "D:\\proects\\gps\\gpssim.c",
+  "output": "CMakeFiles\\venserver.dir\\gpssim.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\thread.c.obj -c D:\\proects\\gps\\thread.c",
+  "file": "D:\\proects\\gps\\thread.c",
+  "output": "CMakeFiles\\venserver.dir\\thread.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\subframe.c.obj -c D:\\proects\\gps\\subframe.c",
+  "file": "D:\\proects\\gps\\subframe.c",
+  "output": "CMakeFiles\\venserver.dir\\subframe.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\calcdata.c.obj -c D:\\proects\\gps\\calcdata.c",
+  "file": "D:\\proects\\gps\\calcdata.c",
+  "output": "CMakeFiles\\venserver.dir\\calcdata.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\rinex.c.obj -c D:\\proects\\gps\\rinex.c",
+  "file": "D:\\proects\\gps\\rinex.c",
+  "output": "CMakeFiles\\venserver.dir\\rinex.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\rinexold.c.obj -c D:\\proects\\gps\\rinexold.c",
+  "file": "D:\\proects\\gps\\rinexold.c",
+  "output": "CMakeFiles\\venserver.dir\\rinexold.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\comportgps.c.obj -c D:\\proects\\gps\\comportgps.c",
+  "file": "D:\\proects\\gps\\comportgps.c",
+  "output": "CMakeFiles\\venserver.dir\\comportgps.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\testtheadsgps.c.obj -c D:\\proects\\gps\\testtheadsgps.c",
+  "file": "D:\\proects\\gps\\testtheadsgps.c",
+  "output": "CMakeFiles\\venserver.dir\\testtheadsgps.c.obj"
+},
+{
+  "directory": "D:/proects/gps/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Program Files/UHD/include\" -g -o CMakeFiles\\venserver.dir\\gpsuniit.c.obj -c D:\\proects\\gps\\gpsuniit.c",
+  "file": "D:\\proects\\gps\\gpsuniit.c",
+  "output": "CMakeFiles\\venserver.dir\\gpsuniit.c.obj"
+}
+]

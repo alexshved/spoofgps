@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "com.h": "c",
+        "gpssim.h": "c",
+        "unistd.h": "c",
+        "windows.h": "c",
+        "chrono": "c",
+        "functional": "c",
+        "random": "c",
+        "subframe.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "span": "c"
+    }
+}
