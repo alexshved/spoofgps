@@ -1,3 +1,0 @@
-D:/proects/gps/build/CMakeFiles/venserver.dir
-D:/proects/gps/build/CMakeFiles/edit_cache.dir
-D:/proects/gps/build/CMakeFiles/rebuild_cache.dir
